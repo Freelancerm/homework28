@@ -1,0 +1,9 @@
+.venv/
+/core/__pycache__/
+/ecommerce/__pycache__/
+/eventbus/__pycache__/
+/__pycache__/
+.idea/
+/.*/
+/kafka/__pycache__/
+/rabbitmq/__pycache__/

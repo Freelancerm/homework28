@@ -1,0 +1,13 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      # Порт для клієнтських підключень
+      - "5672:5672"
+      # Порт для Web-інтерфейсу (http://localhost:15672)
+      - "15672:15672"
+    environment:
+      # Облікові дані за замовчуванням
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
